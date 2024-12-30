@@ -1,4 +1,0 @@
-# request库以及底层调用的逻辑
-
-requests.get(url,params=None,**kwargs)
-
