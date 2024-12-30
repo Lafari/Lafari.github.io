@@ -6,7 +6,7 @@
 
 ## 🌟 博客内容
 - 📚 **学习笔记**
-- [request库底层调用逻辑](softwareTest/interfaceTest.md)
+- [request库底层调用逻辑](softwareTest/interfaceTest)
 
 
 ## 🚀 快速导航
