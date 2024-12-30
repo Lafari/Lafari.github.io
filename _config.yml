@@ -1,3 +1,11 @@
 theme: minima
 title: 我的博客
 description: 分享笔记
+
+# 添加导航链接
+nav_links:
+  - title: 首页
+    url: /
+  - title: 接口测试笔记
+    url: /软件测测试/接口测试/request库底层调用逻辑.md
+
