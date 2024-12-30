@@ -9,11 +9,11 @@
     - [request库底层调用逻辑](softwareTest/interfaceTest/requestLibrary.md)
 - 💰 **外贸运营**
 - 🏀 **篮球思考**
-- [篮球随想](basketBall/basketballThinking.md)
-- [篮球日记](basketBall/basketballDiary.md)
+    - [篮球随想](basketBall/basketballThinking.md)
+    - [篮球日记](basketBall/basketballDiary.md)
 - 🕹  **炉石传说**
 - ✒  **Markdown**
-- [Markdown技巧]()
+    - [Markdown技巧]()
 
 ## 🚀 快速导航
 - [博客首页](https://lafari.github.io)
