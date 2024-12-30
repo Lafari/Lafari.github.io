@@ -13,7 +13,7 @@
     - [篮球日记](basketBall/basketballDiary.md)
 - 🕹  **炉石传说**
 - ✒  **Markdown**
-    - [Markdown技巧]()
+    - [Markdown技巧](markDown/markDownSkill.md)
 
 ## 🚀 快速导航
 - [博客首页](https://lafari.github.io)
