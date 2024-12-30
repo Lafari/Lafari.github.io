@@ -8,3 +8,10 @@
 `requests.request(method,url,**kwangs)`
 
 **上面这个方法调用的是下面这个方法(区别在于，这个方法能够自动化的关联有cookie关联的接口)**
+'session.request(method=method,url=url,**kwargs)'
+
+-method=method,
+-url=url,
+-params=None,
+-data=None,
+-json=None,
