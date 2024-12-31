@@ -9,6 +9,7 @@
     x-www-form-urlencode：纯表单  
     raw：json(参数为json)  
     binary：把文件转化为二进制文件传输  
+    
 `requests.put(url,data=None,**kwargs)`  
 `requests.delete(url,**kwargs)`  
 
