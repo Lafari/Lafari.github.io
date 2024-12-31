@@ -2,12 +2,13 @@
 
 `requests.get(url,params=None,**kwargs)`  
 `requests.post(url,data=None,json=None,**kwargs)`  
+
 **data和json的区别：取决于你需要传递参数类型**    
-  file：文件上传  
-  form-data：表单和文件上传  
-  x-www-form-urlencode：纯表单  
-  raw：json(参数为json)  
-  binary：把文件转化为二进制文件传输  
+    file：文件上传  
+    form-data：表单和文件上传  
+    x-www-form-urlencode：纯表单  
+    raw：json(参数为json)  
+    binary：把文件转化为二进制文件传输  
 `requests.put(url,data=None,**kwargs)`  
 `requests.delete(url,**kwargs)`  
 
