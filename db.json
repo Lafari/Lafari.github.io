@@ -1,6 +1,44 @@
 {
   "users": [
-    { "id": 1, "username": "test_user", "password": "123456", "token": "abc123" },
-    { "id": 2, "username": "another_user", "password": "password123", "token": "xyz789" }
+    {
+      "id": 1,
+      "username": "test_user",
+      "password": "password123",
+      "token": "abc123"
+    },
+    {
+      "id": 2,
+      "username": "john_doe",
+      "password": "password456",
+      "token": "xyz789"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "content": "This is the first post content.",
+      "author_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Second Post",
+      "content": "This is the second post content.",
+      "author_id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "post_id": 1,
+      "content": "Great post!",
+      "author_id": 2
+    },
+    {
+      "id": 2,
+      "post_id": 2,
+      "content": "Very informative.",
+      "author_id": 1
+    }
   ]
 }
