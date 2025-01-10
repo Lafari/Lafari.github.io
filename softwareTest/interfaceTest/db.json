@@ -1,6 +1,0 @@
-{
-  "users": [
-    { "id": 1, "username": "test_user", "password": "123456", "token": "abc123" },
-    { "id": 2, "username": "another_user", "password": "password123", "token": "xyz789" }
-  ]
-}
