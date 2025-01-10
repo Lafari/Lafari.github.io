@@ -40,3 +40,28 @@ driver.minimize_window()
 ```
 
 ## 2. 页面导航：跳转、前进、后退、刷新、获取URL、获取title
+
+Selenium 提供了多种用于浏览器页面导航的操作，帮助测试脚本模拟用户在浏览器中的常见行为。以下是这些操作的示例代码。
+
+```python
+# 跳转到指定的 URL
+driver.get("https://www.example.com")
+
+# 向前导航到下一个页面
+driver.forward()
+
+# 返回到前一个页面
+driver.back()
+
+# 刷新当前页面
+driver.refresh()
+
+# 获取当前页面的 URL
+current_url = driver.current_url
+print(current_url)
+
+# 获取当前页面的标题
+page_title = driver.title
+print(page_title)
+
+```
