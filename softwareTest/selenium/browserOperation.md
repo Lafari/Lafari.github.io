@@ -39,7 +39,7 @@ driver.maximize_window()
 driver.minimize_window()
 ```
 
-## 2. 页面导航：跳转、前进、后退、刷新、获取URL、获取title
+## 2. 页面跳转、前进、后退、刷新、获取URL、获取title
 
 Selenium 提供了多种用于浏览器页面导航的操作，帮助测试脚本模拟用户在浏览器中的常见行为。以下是这些操作的示例代码。
 
