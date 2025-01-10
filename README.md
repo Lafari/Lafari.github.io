@@ -14,6 +14,7 @@
         - [自动化测试的误区](softwareTest/webAutomationTestImplementationAndMisunderstandings/misUnderstanding.md)
         - [如何合理使用UI自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/uiAutomation.md)
         - [落地实施自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/implementAutomation.md)
+    - selenium
     - 接口测试
         - [request库底层调用逻辑](softwareTest/interfaceTest/requestLibrary.md)
         - [接口自动化实战](softwareTest/interfaceTest/interfaceAutomationPracti.md)
