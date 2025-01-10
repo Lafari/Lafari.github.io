@@ -7,6 +7,7 @@
 ## 🌟 博客内容  
 
 - 📚 **软件测试**
+    - web自动化测试实施与误区
     - 接口测试
         - [request库底层调用逻辑](softwareTest/interfaceTest/requestLibrary.md)
         - [接口自动化实战](softwareTest/interfaceTest/interfaceAutomationPracti.md)
