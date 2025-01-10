@@ -67,6 +67,8 @@ print(page_title)
 ```
 ## 3. 窗口切换、进入iframe、处理alert、操作cookie、执行js
 
+Selenium 除了基本的页面操作外，还提供了许多高级操作，用于更复杂的自动化测试需求
+
 ```python
 # 获取所有窗口句柄
 windows = driver.window_handles
