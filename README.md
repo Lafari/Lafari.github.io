@@ -9,6 +9,11 @@
 - 📚 **软件测试**
     - web自动化测试实施与误区
         - [web自动化实施面临的问题](softwareTest/webAutomationTestImplementationAndMisunderstandings/ProblemsWithAutomatedTesting.md)
+        - [什么情况下不需要自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/NoNeedForAutomated.md)
+        - [自动化测试价值和瓶颈](softwareTest/webAutomationTestImplementationAndMisunderstandings/ValueAndBottlenecks.md)
+        - [自动化测试的误区](softwareTest/webAutomationTestImplementationAndMisunderstandings/misUnderstanding.md)
+        - [如何合理使用UI自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/uiAutomation.md
+        - [落地实施自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/implementAutomation.md)
     - 接口测试
         - [request库底层调用逻辑](softwareTest/interfaceTest/requestLibrary.md)
         - [接口自动化实战](softwareTest/interfaceTest/interfaceAutomationPracti.md)
