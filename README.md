@@ -12,7 +12,7 @@
         - [什么情况下不需要自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/NoNeedForAutomated.md)
         - [自动化测试价值和瓶颈](softwareTest/webAutomationTestImplementationAndMisunderstandings/ValueAndBottlenecks.md)
         - [自动化测试的误区](softwareTest/webAutomationTestImplementationAndMisunderstandings/misUnderstanding.md)
-        - [如何合理使用UI自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/uiAutomation.md
+        - [如何合理使用UI自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/uiAutomation.md)
         - [落地实施自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/implementAutomation.md)
     - 接口测试
         - [request库底层调用逻辑](softwareTest/interfaceTest/requestLibrary.md)
