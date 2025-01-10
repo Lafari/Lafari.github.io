@@ -10,7 +10,7 @@
     - 接口测试
         - [request库底层调用逻辑](softwareTest/interfaceTest/requestLibrary.md)
         - [接口自动化实战](softwareTest/interfaceTest/interfaceAutomationPracti.md)
-        - [接口功能测试](softwareTest/interfaceTest/interfaceAutomationPracti.md)
+        - [接口功能测试](softwareTest/interfaceTest/interfaceFunctionTesting.md)
      
 - 💰 **外贸运营**
   
