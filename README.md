@@ -15,7 +15,7 @@
         - [如何合理使用UI自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/uiAutomation.md)
         - [落地实施自动化](softwareTest/webAutomationTestImplementationAndMisunderstandings/implementAutomation.md)
     - selenium
-        - [三大组件](softwareTest/selenium/seleniumFramework.md
+        - [三大组件](softwareTest/selenium/seleniumFramework.md)
         - [执行原理](softwareTest/selenium/howToWork.md)
         - [浏览器操作](softwareTest/selenium/browserOperation.md)
         - [浏览器定位](softwareTest/selenium/browsePositioning.md)
