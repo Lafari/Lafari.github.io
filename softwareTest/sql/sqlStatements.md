@@ -79,4 +79,90 @@ ON a.id = b.id;
 ```
 LEFT JOIN：返回左表的所有行，右表没有匹配时返回 NULL  
 
+## 5. 子查询
+在一个查询中嵌套另一个查询  
 
+**基本语法：**
+```sql
+SELECT column1 
+FROM table_a 
+WHERE column2 IN (SELECT column2 FROM table_b WHERE condition);
+```
+子查询：先执行括号内的查询，然后将结果用于外部查询  
+
+## 6. 聚合函数
+用于对一组值进行计算并返回单个值    
+
+**基本语法：**
+```sql
+SELECT COUNT(*) AS total_rows, 
+       AVG(column1) AS average_value, 
+       SUM(column2) AS total_sum 
+FROM table_name;
+```
+COUNT：计算行数  
+AVG：计算平均值  
+SUM：计算总和  
+
+## 7. 窗口函数
+用于在查询结果中执行计算，同时保留原始行的详细信息    
+
+**基本语法：**
+```sql
+SELECT column1, 
+       ROW_NUMBER() OVER (ORDER BY column2) AS row_num 
+FROM table_name;
+```
+ROW_NUMBER()：为每一行分配一个唯一的序号  
+OVER：定义窗口的范围  
+
+## 复杂查询
+1. 查询每个部门的平均工资，并显示部门名称  
+```sql
+-- 使用 JOIN 和聚合函数
+SELECT d.department_name, AVG(e.salary) AS avg_salary 
+FROM employees e 
+INNER JOIN departments d 
+ON e.department_id = d.department_id 
+GROUP BY d.department_name;
+```
+INNER JOIN：连接 employees 和 departments 表  
+AVG(e.salary)：计算每个部门的平均工资  
+GROUP BY：按部门名称分组
+
+2. 查询工资高于平均工资的员工  
+```sql
+-- 使用子查询
+SELECT employee_name, salary 
+FROM employees 
+WHERE salary > (SELECT AVG(salary) FROM employees);
+```
+子查询：先计算平均工资，然后筛选出工资高于平均值的员工  
+
+3. 查询每个部门的员工工资排名
+```sql
+-- 使用子查询
+-- 使用窗口函数
+SELECT employee_name, department_id, salary, 
+       RANK() OVER (PARTITION BY department_id ORDER BY salary DESC) AS salary_rank 
+FROM employees;
+```
+RANK()：为每个部门的员工按工资排名  
+PARTITION BY：按部门分组  
+ORDER BY：按工资降序排列  
+
+4. CET查询每个部门的最高工资员工
+```sql
+-- 使用 CTE
+WITH max_salary_cte AS (
+    SELECT department_id, MAX(salary) AS max_salary 
+    FROM employees 
+    GROUP BY department_id
+)
+SELECT e.employee_name, e.department_id, e.salary 
+FROM employees e 
+INNER JOIN max_salary_cte m 
+ON e.department_id = m.department_id AND e.salary = m.max_salary;
+```
+WITH：定义 CTE，计算每个部门的最高工资  
+INNER JOIN：连接 CTE 和 employees 表，找到最高工资员工  
