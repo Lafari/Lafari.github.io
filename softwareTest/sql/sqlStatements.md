@@ -47,5 +47,36 @@ WHERE condition;
 DELETE FROM：指定要删除数据的表  
 WHERE：指定要删除的行  
 
+## 5. JOIN 语句
+用于从多个表中查询数据  
+**基本语法：**
+**内连接**
+返回两个表中匹配的行  
+```sql
+SELECT a.column1, b.column2 
+FROM table_a a 
+INNER JOIN table_b b 
+ON a.id = b.id;
+```
+INNER JOIN：只返回两个表中匹配的行  
+ON：指定连接条件  
+**左连接**
+返回左表中的所有行，即使右表中没有匹配的行  
+```sql
+SELECT a.column1, b.column2 
+FROM table_a a 
+LEFT JOIN table_b b 
+ON a.id = b.id;
+```
+LEFT JOIN：返回左表的所有行，右表没有匹配时返回 NULL  
+**右连接**
+返回右表中的所有行，即使左表中没有匹配的行
+```sql
+SELECT a.column1, b.column2 
+FROM table_a a 
+RIGHT JOIN table_b b 
+ON a.id = b.id;
+```
+LEFT JOIN：返回左表的所有行，右表没有匹配时返回 NULL  
 
 
