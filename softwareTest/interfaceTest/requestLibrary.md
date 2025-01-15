@@ -34,3 +34,14 @@
 `stream=None` 文件下载  
 `verify=None` 证书验证  
 `cert=None` CA证书
+
+# 接收请求
+`print(res.text)` 返回文本信息
+`print(res.json()` 返回json格式
+`print(res.content)` 返回的字节内容
+`print(res.state_code)` 返回的状态码
+`print(res.reason)` 返回的状态信息
+`print(res.cookies)` 返回的cookie
+`print(res.encoding)` 返回编码格式
+`print(res.headers)` 返回响应头
+`print(res.request)` 返回请求数据
