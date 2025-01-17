@@ -34,16 +34,22 @@ if __name__ == '__main__':
 #命令行参数
 #常见：--html=./reports/report.html --reruns 2
 addopts = -vs -m "user_manager or smoke"
+
 #配置执行的用例位置
 testpaths = ./testcases
+
 #配置修改默认的模块规则
 python_files = test_*.py
+
 #配置修改默认的类规则
 python_classes = Test*
+
 #配置修改默认的用例规则
 python_functions = test_*
+
 #配置基础路径
 base_url = http://www.baidu.com
+
 #标记
 markers =
   smoke: 冒烟测试用例
